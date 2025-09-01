@@ -1,6 +1,6 @@
 {
   "outputDirectory": "apps/web",
-  "buildCommand": "cd ../.. && turbo run build --filter={apps/web}...",
-  "installCommand": "cd ../.. && corepack enable && bash clone-marketing.sh && pnpm install --no-frozen-lockfile",
+  "buildCommand": "turbo run build --filter={apps/web}...",
+  "installCommand": "corepack enable && bash clone-marketing.sh && pnpm install --no-frozen-lockfile",
   "ignoreCommand": ""
 }
